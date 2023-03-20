@@ -13,10 +13,7 @@ function App() {
     time:'9:51'
   }]);
   console.log(contacts);
-  /*
-  Define state variables for 
-  contacts and appointments 
-  */
+
   const addContact = (cname,cphonenum,cemail) =>{
       setContacts((prevContacts)=>{
           const contact = {
@@ -47,10 +44,7 @@ function App() {
     APPOINTMENTS: "/appointments",
   };
 
-  /*
-  Implement functions to add data to
-  contacts and appointments
-  */
+
 
   return (
   
